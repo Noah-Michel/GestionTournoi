@@ -1,0 +1,109 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.tableau{
+    display: flex;
+    flex-direction: row;
+}
+
+.seiziemes{
+    display: flex;
+    flex-direction: column;
+}
+.seiziemes .match{    
+    margin: 10px;
+}
+
+.huitiemes{
+    display: flex;
+    flex-direction: column;
+}
+.huitiemes .match{
+    margin: 70px 10px 70px 10px;
+}
+
+.quarts{
+    display: flex;
+    flex-direction: column;
+}
+.quarts .match{
+    margin: 190px 10px 190px 10px;
+}
+
+.demis{
+    display: flex;
+    flex-direction: column;
+}
+.demis .match{
+    margin: 430px 10px 430px 10px;
+}
+
+.finals{
+    display: flex;
+    flex-direction: column;
+}
+.finals .petitefinal{
+    margin: 10px 10px 850px 10px;
+}
+.finals .final{
+    margin: 850px 10px 10px 10px;
+}
+
+.match{
+    display: flex;
+    background-color: gray;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    padding: 5px;
+}
+
+.gagnant{
+    background-color: #008037;
+}
+
+.podium{
+    display: flex;
+    flex-direction: column;
+}
+
+.premier{
+    display: flex;
+    background-color: gold;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.deuxieme{
+    display: flex;
+    background-color: silver;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.troisieme{
+    display: flex;
+    background-color: rgb(165, 97, 42);
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+}
+

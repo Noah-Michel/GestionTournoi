@@ -1,0 +1,20 @@
+fieldset{
+    background-color: #DCDCDC;
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}

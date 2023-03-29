@@ -1,0 +1,130 @@
+:root {
+    --vert: rgb(1, 83, 27);
+    --vclair: rgb(1, 83, 25, 0.800);
+    --blanc: rgb(255, 255, 255);
+    --bclair: rgb(255, 255, 255, 0.800);
+}
+
+
+.wrap {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+}
+
+header button {
+    height: 100%;
+}
+
+body {
+    font-family: Cambria, serif;
+    margin: 6vh;
+    background-image: url("fondecran.jpeg");
+    background-size: 150%;
+    background-attachment: inherit;
+}
+
+h2 {
+    font-family: Cambria, serif;
+    text-align: center;
+    color: var(--vert);
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: start;
+    vertical-align: middle;
+
+    row-gap: 0.5rem 0.2rem;
+    gap: 2% 10px;
+
+    background-color: var(--bclair);
+    margin-bottom: 10px;
+    height: 6rem;
+}
+
+legend {
+    font-family: Cambria, serif;
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    background-color: var(--blanc);
+}
+
+label {
+    justify-items: right;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    background-color: var(--vclair);
+    color: var(--blanc);
+    font-family: Cambria, serif;
+
+    width: 25%;
+    height: 100%;
+    margin-top: 0, 5;
+
+    border: 1px;
+    border-style: solid;
+    border-color: var(--vclair);
+}
+
+#valider {
+    width: 100%;
+    color: var(--vert);
+    background-color: var(--bclair);
+}
+
+.cartes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    vertical-align: middle;
+    padding: 10em, auto;
+    text-align: center;
+}
+
+.cartes a {
+    margin: 0.1rem;
+    background-color: var(--bclair);
+}
+
+.inactif{
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+
+
+/*------------CSS RECAP COMMANDE-------------*/
+.recap {
+    display: grid;
+    margin: 2%;
+    color: var(--vert);
+    background-color: var(--bclair);
+    text-align: center;
+}
+
+input[type=textfield] {
+    width: 35%;
+    padding: 4px;
+    box-sizing: border-box;
+}
